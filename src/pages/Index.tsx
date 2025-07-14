@@ -10,7 +10,14 @@ const Index = () => {
       <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-lg z-50 border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <div className="font-bold text-xl font-['Montserrat']">LOGO DESIGNER</div>
+            <div className="flex items-center">
+              <img 
+                src="/your-logo.png" 
+                alt="Logo" 
+                className="h-8 w-auto"
+              />
+              {/* Или оставить текст: <div className="font-bold text-xl font-['Montserrat']">LOGO DESIGNER</div> */}
+            </div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#home" className="hover:text-gray-600 transition-colors">Главная</a>
               <a href="#about" className="hover:text-gray-600 transition-colors">О себе</a>
